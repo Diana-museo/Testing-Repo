@@ -1,3 +1,0 @@
-Halo, nama saya B.
-Ini project pertama saya. Kalo mau pull ketik:
-git pull origin feat/B
