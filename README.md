@@ -61,15 +61,42 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi Kelasync menggunakan Ja
 4. Pada **Projects**, pilih **Java Application**
 5. Klik **Next**
 6. Isi konfigurasi project sebagai berikut:
+```bash
    - **Project Name** : Kelasync  
    - **Group ID** : id.rancangrupa  
+```
 7. Klik **Finish**
 
 ### Langkah 2 – Menambahkan Source Code
 1. Buka folder project **Kelasync**
 2. Masuk ke direktori: `src/main/java/id/rancangrupa/kelasync`
 3. Salin seluruh isi source code dari repository GitHub ke dalam folder tersebut
-4. Pastikan struktur package sesuai dan tidak terjadi error pada NetBeans
+4. Pastikan struktur package utama sesuai dan tidak terjadi error pada NetBeans
+```bash
+Kelasync/
+├── src/
+│ ├── kelasync/
+│ │ ├── controller/
+│ │ │ ├── KursusController.java
+│ │ │ ├── PendaftaranController.java
+│ │ │ ├── PengajarController.java
+│ │ │ ├── PesertaController.java
+│ │ ├── db/
+│ │ │ ├── kelasync.sql
+│ │ ├── model/
+│ │ │ ├── Kursus.java
+│ │ │ ├── Pendaftaran.java
+│ │ │ ├── Pengajar.java
+│ │ │ ├── Peserta.java
+│ │ ├── util/
+│ │ │ ├── DBConnection.java
+│ │ └── view/
+│ │ │ ├── KursusView.java
+│ │ │ ├── PendaftaranView.java
+│ │ │ ├── PengajarView.java
+│ │ │ ├── PesertaView.java
+│ └── Main.java
+```
 
 ### Langkah 3 – Setup Database
 1. Jalankan MySQL Server (XAMPP/Laragon)
@@ -82,9 +109,11 @@ File tersedia di dalam repository proyek di folder db
 1. Klik kanan pada folder **Dependencies** di project NetBeans
 2. Pilih **Add Dependency**
 3. Isi form dependency dengan data berikut:
+```bash
 - **Group ID** : `com.mysql`
 - **Artifact ID** : `mysql-connector-j`
 - **Version** : `9.5.0`
+```
 4. Klik **Add**
 5. Tunggu hingga Maven selesai mengunduh dependency
 
