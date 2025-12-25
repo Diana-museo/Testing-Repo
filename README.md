@@ -26,6 +26,9 @@ Fitur utama yang tersedia dalam aplikasi Kelasync meliputi:
 - Pengelolaan data pendaftaran (CRUD)
 - Validasi input data
 - Tampilan data berbasis tabel (JTable)
+- Export laporan PDF:
+   1. Seluruh pendaftaran kursus
+   2. Jadwal kursus per peserta
 
 ---
 
@@ -45,6 +48,7 @@ Sebelum menjalankan aplikasi, pastikan sistem telah memenuhi kebutuhan berikut:
 |----------|----------|
 | Bahasa Pemrograman | Java |
 | Database | MySQL |
+| PDF Generation | OpenPDF |
 | Antarmuka | Java Swing |
 | IDE | NetBeans |
 
@@ -107,14 +111,21 @@ File tersedia di dalam repository proyek di folder db
 ### Langkah 4 – Menambahkan Dependencies MySQL (Maven)
 1. Klik kanan pada folder **Dependencies** di project NetBeans
 2. Pilih **Add Dependency**
-3. Isi form dependency dengan data berikut:
+3. Tambahkan dependency MySQL:
 ```bash
-- Group ID : `com.mysql`
-- Artifact ID : `mysql-connector-j`
-- Version : `9.5.0`
+- Group ID : com.mysql
+- Artifact ID : mysql-connector-j
+- Version : 9.5.0
 ```
 4. Klik **Add**
-5. Tunggu hingga Maven selesai mengunduh dependency
+5. Tambahkan dependency OpenPDF untuk fitur export PDF:
+```bash
+- Group ID : com.github.librepdf
+- Artifact ID : openpdf
+- Version : 1.3.30
+```
+6. Klik **Add**
+7. Tunggu hingga Maven selesai mengunduh dependency
 
 ### Langkah 5 – Menjalankan Aplikasi
 1. Buka file: Main.java
