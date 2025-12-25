@@ -10,14 +10,14 @@ Proyek ini dikembangkan sebagai Tugas Besar Praktikum Pemrograman II Tahun 2025.
 
 ---
 
-## Project Overview
+## 🔎 Project Overview
 
 Kelasync dirancang untuk membantu proses pengelolaan data kursus secara terstruktur dan terkomputerisasi.  
 Aplikasi ini menitikberatkan pada pemisahan logika program menggunakan arsitektur Model–View–Controller (MVC) agar mudah dikembangkan dan dipelihara.
 
 ---
 
-## Fitur Aplikasi
+## ⚙️ Fitur Aplikasi
 
 Fitur utama yang tersedia dalam aplikasi Kelasync meliputi:
 - Pengelolaan data kursus (CRUD)
@@ -32,7 +32,7 @@ Fitur utama yang tersedia dalam aplikasi Kelasync meliputi:
 
 ---
 
-## Prasyarat Sistem
+## 🗃️ Prasyarat Sistem
 
 Sebelum menjalankan aplikasi, pastikan sistem telah memenuhi kebutuhan berikut:
 - Java Development Kit (JDK) 21 atau versi yang kompatibel
@@ -54,7 +54,7 @@ Sebelum menjalankan aplikasi, pastikan sistem telah memenuhi kebutuhan berikut:
 
 ---
 
-## Panduan Instalasi dan Penggunaan
+## 🗝️ Panduan Instalasi dan Penggunaan
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi Kelasync menggunakan Java Maven di NetBeans.
 
@@ -132,7 +132,7 @@ File tersedia di dalam repository proyek di folder db
 2. Jalankan aplikasi dengan menekan tombol **Run**
 3. Aplikasi Kelasync akan tampil dan siap digunakan
 
-### Catatan Tambahan
+### 🗒️ Catatan Tambahan
 Semua file PDF yang dihasilkan oleh fitur export laporan akan otomatis disimpan di folder `reports` yang berada di root project:
 ```bash
    Kelasync/reports
@@ -141,7 +141,7 @@ Folder `reports` akan dibuat secara otomatis oleh aplikasi jika belum ada.
 
 ---
 
-## Tim Pengembang
+## 👥 Tim Pengembang
 
 Aplikasi Kelasync dikembangkan oleh Kelompok RancangRupa pada Praktikum Pemrograman II Kelas B Tahun 2025, dengan pembagian pengembangan berdasarkan modul dan entitas sistem.
 
