@@ -73,29 +73,28 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi Kelasync menggunakan Ja
 3. Salin seluruh isi source code dari repository GitHub ke dalam folder tersebut
 4. Pastikan struktur package utama sesuai dan tidak terjadi error pada NetBeans
 ```bash
-Kelasync/
-├── src/
-│ ├── kelasync/
-│ │ ├── controller/
-│ │ │ ├── KursusController.java
-│ │ │ ├── PendaftaranController.java
-│ │ │ ├── PengajarController.java
-│ │ │ ├── PesertaController.java
-│ │ ├── db/
-│ │ │ ├── kelasync.sql
-│ │ ├── model/
-│ │ │ ├── Kursus.java
-│ │ │ ├── Pendaftaran.java
-│ │ │ ├── Pengajar.java
-│ │ │ ├── Peserta.java
-│ │ ├── util/
-│ │ │ ├── DBConnection.java
-│ │ └── view/
-│ │ │ ├── KursusView.java
-│ │ │ ├── PendaftaranView.java
-│ │ │ ├── PengajarView.java
-│ │ │ ├── PesertaView.java
-│ └── Main.java
+Kelasync/src/main/java/id/rancangrupa/
+├── kelasync/
+│ ├── controller/
+│ │ ├── KursusController.java
+│ │ ├── PendaftaranController.java
+│ │ ├── PengajarController.java
+│ │ ├── PesertaController.java
+│ ├── db/
+│ │ ├── kelasync.sql
+│ ├── model/
+│ │ ├── Kursus.java
+│ │ ├── Pendaftaran.java
+│ │ ├── Pengajar.java
+│ │ ├── Peserta.java
+│ ├── util/
+│ │ ├── DBConnection.java
+│ ├── view/
+│ │ ├── KursusView.java
+│ │ ├── PendaftaranView.java
+│ │ ├── PengajarView.java
+│ │ ├── PesertaView.java
+└── Main.java
 ```
 
 ### Langkah 3 – Setup Database
