@@ -132,6 +132,13 @@ File tersedia di dalam repository proyek di folder db
 2. Jalankan aplikasi dengan menekan tombol **Run**
 3. Aplikasi Kelasync akan tampil dan siap digunakan
 
+### Catatan Tambahan
+Semua file PDF yang dihasilkan oleh fitur export laporan akan otomatis disimpan di folder `reports` yang berada di root project:
+```bash
+Kelasync/reports
+```
+Folder `reports` akan dibuat secara otomatis oleh aplikasi jika belum ada.
+
 ---
 
 ## Tim Pengembang
