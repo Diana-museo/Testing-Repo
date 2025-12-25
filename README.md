@@ -71,15 +71,11 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi Kelasync menggunakan Ja
    - **Group ID** : id.rancangrupa  
 7. Klik **Finish**
 
----
-
 ### Langkah 2 – Menambahkan Source Code
 1. Buka folder project **Kelasync**
 2. Masuk ke direktori: `src/main/java/id/rancangrupa/kelasync`
 3. Salin seluruh isi source code dari repository GitHub ke dalam folder tersebut
 4. Pastikan struktur package sesuai dan tidak terjadi error pada NetBeans
-
----
 
 ### Langkah 3 – Setup Database
 1. Jalankan MySQL Server (XAMPP/Laragon)
@@ -87,8 +83,6 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi Kelasync menggunakan Ja
 3. Buat database baru dengan nama: `kelasync_db`
 4. Import file database: `kelasync.sql`
 File tersedia di dalam repository proyek di folder db
-
----
 
 ### Langkah 4 – Menambahkan Dependencies MySQL (Maven)
 1. Klik kanan pada folder **Dependencies** di project NetBeans
@@ -99,8 +93,6 @@ File tersedia di dalam repository proyek di folder db
 - **Version** : `9.5.0`
 4. Klik **Add**
 5. Tunggu hingga Maven selesai mengunduh dependency
-
----
 
 ### Langkah 5 – Menjalankan Aplikasi
 1. Buka file: Main.java
