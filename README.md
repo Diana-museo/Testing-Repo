@@ -19,7 +19,7 @@ Aplikasi ini menitikberatkan pada pemisahan logika program menggunakan arsitektu
 
 ## Tim Pengembang
 
-Aplikasi Kelasync dikembangkan oleh Kelompok Praktikum Pemrograman II Kelas B Tahun 2025, dengan pembagian pengembangan berdasarkan modul dan entitas sistem.
+Aplikasi Kelasync dikembangkan oleh Kelompok RancangRupa pada Praktikum Pemrograman II Kelas B Tahun 2025, dengan pembagian pengembangan berdasarkan modul dan entitas sistem.
 
 ---
 
