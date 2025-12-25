@@ -17,12 +17,6 @@ Aplikasi ini menitikberatkan pada pemisahan logika program menggunakan arsitektu
 
 ---
 
-## Tim Pengembang
-
-Aplikasi Kelasync dikembangkan oleh Kelompok RancangRupa pada Praktikum Pemrograman II Kelas B Tahun 2025, dengan pembagian pengembangan berdasarkan modul dan entitas sistem.
-
----
-
 ## Fitur Aplikasi
 
 Fitur utama yang tersedia dalam aplikasi Kelasync meliputi:
@@ -98,3 +92,16 @@ File tersedia di dalam repository proyek di folder db
 1. Buka file: Main.java
 2. Jalankan aplikasi dengan menekan tombol **Run**
 3. Aplikasi Kelasync akan tampil dan siap digunakan
+
+---
+
+## Tim Pengembang
+
+Aplikasi Kelasync dikembangkan oleh Kelompok RancangRupa pada Praktikum Pemrograman II Kelas B Tahun 2025, dengan pembagian pengembangan berdasarkan modul dan entitas sistem.
+
+| NIM  | Nama | GitHub Profile | 
+|----------|----------|----------|
+| `233040065`  | Emeralda Iffatud Diana | [Diana-museo](https://github.com/Diana-museo) |
+| `233040051` | Haifa Zahirah Ramdhan | [haifazahirahr](https://github.com/haifazahirahr) |
+| `233040061` | Ellen Aplida Zalni | [twenteazfour](https://github.com/haifazahirahr) |
+| `233040086` | Iqbal Nurfikri | [MangEakLur](https://github.com/MangEakLur) |
