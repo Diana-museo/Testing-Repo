@@ -3,23 +3,106 @@
 ![Java](https://img.shields.io/badge/Java-21-orange)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
 
-Kelasync adalah aplikasi desktop berbasis Java Swing untuk mengelola data kursus, peserta, pengajar, dan pendaftaran.
+Kelasync adalah aplikasi desktop berbasis Java Swing yang digunakan untuk mengelola data kursus, peserta, pengajar, dan pendaftaran.  
+Aplikasi ini menyediakan fitur pengolahan data terintegrasi dengan database MySQL melalui mekanisme CRUD dan tampilan tabel berbasis JTable.
 
-## ✨ Fitur Utama
-- CRUD data kursus
-- CRUD data peserta
-- CRUD data pengajar
-- CRUD data pendaftaran
+Proyek ini dikembangkan sebagai Tugas Besar Praktikum Pemrograman II Tahun 2025.
 
-## 🛠️ Teknologi
-| Komponen | Digunakan |
-|--------|----------|
-| Bahasa | Java |
+---
+
+## Project Overview
+
+Kelasync dirancang untuk membantu proses pengelolaan data kursus secara terstruktur dan terkomputerisasi.  
+Aplikasi ini menitikberatkan pada pemisahan logika program menggunakan arsitektur Model–View–Controller (MVC) agar mudah dikembangkan dan dipelihara.
+
+---
+
+## Tim Pengembang
+
+Aplikasi Kelasync dikembangkan oleh Kelompok Praktikum Pemrograman II Kelas B Tahun 2025, dengan pembagian pengembangan berdasarkan modul dan entitas sistem.
+
+---
+
+## Fitur Aplikasi
+
+Fitur utama yang tersedia dalam aplikasi Kelasync meliputi:
+- Pengelolaan data kursus (CRUD)
+- Pengelolaan data peserta (CRUD)
+- Pengelolaan data pengajar (CRUD)
+- Pengelolaan data pendaftaran (CRUD)
+- Validasi input data
+- Tampilan data berbasis tabel (JTable)
+
+---
+
+## Prasyarat Sistem
+
+Sebelum menjalankan aplikasi, pastikan sistem telah memenuhi kebutuhan berikut:
+- Java Development Kit (JDK) 21 atau versi yang kompatibel
+- MySQL Server
+- phpMyAdmin
+- NetBeans IDE
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Komponen  | Teknologi |
+|----------|----------|
+| Bahasa Pemrograman | Java |
 | Database | MySQL |
-| UI | Java Swing |
+| Antarmuka | Java Swing |
 | IDE | NetBeans |
 
-## 🚀 Menjalankan Aplikasi
-1. Import database `kelasync.sql`
-2. Buka project di NetBeans
-3. Jalankan `Main.java`
+---
+
+## Panduan Instalasi dan Penggunaan
+
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi Kelasync menggunakan Java Maven di NetBeans.
+
+### Langkah 1 – Membuat Project Baru di NetBeans
+1. Buka **NetBeans IDE**
+2. Pilih menu **File → New Project**
+3. Pada **Categories**, pilih **Java with Maven**
+4. Pada **Projects**, pilih **Java Application**
+5. Klik **Next**
+6. Isi konfigurasi project sebagai berikut:
+   - **Project Name** : Kelasync  
+   - **Group ID** : id.rancangrupa  
+7. Klik **Finish**
+
+---
+
+### Langkah 2 – Menambahkan Source Code
+1. Buka folder project **Kelasync**
+2. Masuk ke direktori: `src/main/java/id/rancangrupa/kelasync`
+3. Salin seluruh isi source code dari repository GitHub ke dalam folder tersebut
+4. Pastikan struktur package sesuai dan tidak terjadi error pada NetBeans
+
+---
+
+### Langkah 3 – Setup Database
+1. Jalankan MySQL Server (XAMPP/Laragon)
+2. Buka **phpMyAdmin**
+3. Buat database baru dengan nama: `kelasync_db`
+4. Import file database: `kelasync.sql`
+File tersedia di dalam repository proyek di folder db
+
+---
+
+### Langkah 4 – Menambahkan Dependencies MySQL (Maven)
+1. Klik kanan pada folder **Dependencies** di project NetBeans
+2. Pilih **Add Dependency**
+3. Isi form dependency dengan data berikut:
+- **Group ID** : `com.mysql`
+- **Artifact ID** : `mysql-connector-j`
+- **Version** : `9.5.0`
+4. Klik **Add**
+5. Tunggu hingga Maven selesai mengunduh dependency
+
+---
+
+### Langkah 5 – Menjalankan Aplikasi
+1. Buka file: Main.java
+2. Jalankan aplikasi dengan menekan tombol **Run**
+3. Aplikasi Kelasync akan tampil dan siap digunakan
