@@ -62,8 +62,8 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi Kelasync menggunakan Ja
 5. Klik **Next**
 6. Isi konfigurasi project sebagai berikut:
 ```bash
-   - **Project Name** : Kelasync  
-   - **Group ID** : id.rancangrupa  
+   - Project Name : Kelasync  
+   - Group ID : id.rancangrupa  
 ```
 7. Klik **Finish**
 
@@ -110,9 +110,9 @@ File tersedia di dalam repository proyek di folder db
 2. Pilih **Add Dependency**
 3. Isi form dependency dengan data berikut:
 ```bash
-- **Group ID** : `com.mysql`
-- **Artifact ID** : `mysql-connector-j`
-- **Version** : `9.5.0`
+- Group ID : `com.mysql`
+- Artifact ID : `mysql-connector-j`
+- Version : `9.5.0`
 ```
 4. Klik **Add**
 5. Tunggu hingga Maven selesai mengunduh dependency
