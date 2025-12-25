@@ -1,7 +1,6 @@
 # 📑 Kelasync – Aplikasi Manajemen Kursus
 
-![Java](https://img.shields.io/badge/Java-21-orange)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
+![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=java)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)
 
 Kelasync adalah aplikasi desktop berbasis Java Swing yang digunakan untuk mengelola data kursus, peserta, pengajar, dan pendaftaran.  
