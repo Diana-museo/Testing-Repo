@@ -39,7 +39,7 @@ Fitur utama yang tersedia dalam aplikasi Kelasync meliputi:
 
 Sebelum menjalankan aplikasi, pastikan sistem telah memenuhi kebutuhan berikut:
 - Java Development Kit (JDK) 21 atau versi yang kompatibel
-- MySQL Server
+- MySQL Server (XAMPP/Laragon)
 - phpMyAdmin
 - NetBeans IDE
 
