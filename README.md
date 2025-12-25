@@ -48,7 +48,7 @@ Sebelum menjalankan aplikasi, pastikan sistem telah memenuhi kebutuhan berikut:
 |----------|----------|
 | Bahasa Pemrograman | Java |
 | Database | MySQL |
-| PDF Generation | OpenPDF |
+| PDF Library | OpenPDF |
 | Antarmuka | Java Swing |
 | IDE | NetBeans |
 
