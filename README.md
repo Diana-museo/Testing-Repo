@@ -66,8 +66,8 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi Kelasync menggunakan Ja
 5. Klik **Next**
 6. Isi konfigurasi project sebagai berikut:
 ```bash
-   - Project Name : Kelasync  
-   - Group ID : id.rancangrupa  
+   Project Name : Kelasync  
+   Group ID     : id.rancangrupa  
 ```
 7. Klik **Finish**
 
@@ -77,28 +77,28 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi Kelasync menggunakan Ja
 3. Salin seluruh isi source code dari repository GitHub ke dalam folder tersebut
 4. Pastikan struktur package utama sesuai dan tidak terjadi error pada NetBeans
 ```bash
-Kelasync/src/main/java/id/rancangrupa/
-├── kelasync/
-│ ├── controller/
-│ │ ├── KursusController.java
-│ │ ├── PendaftaranController.java
-│ │ ├── PengajarController.java
-│ │ ├── PesertaController.java
-│ ├── db/
-│ │ ├── kelasync.sql
-│ ├── model/
-│ │ ├── Kursus.java
-│ │ ├── Pendaftaran.java
-│ │ ├── Pengajar.java
-│ │ ├── Peserta.java
-│ ├── util/
-│ │ ├── DBConnection.java
-│ ├── view/
-│ │ ├── KursusView.java
-│ │ ├── PendaftaranView.java
-│ │ ├── PengajarView.java
-│ │ ├── PesertaView.java
-└── Main.java
+   Kelasync/src/main/java/id/rancangrupa/
+   ├── kelasync/
+   │ ├── controller/
+   │ │ ├── KursusController.java
+   │ │ ├── PendaftaranController.java
+   │ │ ├── PengajarController.java
+   │ │ ├── PesertaController.java
+   │ ├── db/
+   │ │ ├── kelasync.sql
+   │ ├── model/
+   │ │ ├── Kursus.java
+   │ │ ├── Pendaftaran.java
+   │ │ ├── Pengajar.java
+   │ │ ├── Peserta.java
+   │ ├── util/
+   │ │ ├── DBConnection.java
+   │ ├── view/
+   │ │ ├── KursusView.java
+   │ │ ├── PendaftaranView.java
+   │ │ ├── PengajarView.java
+   │ │ ├── PesertaView.java
+   └── Main.java
 ```
 
 ### Langkah 3 – Setup Database
@@ -113,16 +113,16 @@ File tersedia di dalam repository proyek di folder db
 2. Pilih **Add Dependency**
 3. Tambahkan dependency MySQL:
 ```bash
-- Group ID : com.mysql
-- Artifact ID : mysql-connector-j
-- Version : 9.5.0
+   Group ID    : com.mysql
+   Artifact ID : mysql-connector-j
+   Version  : 9.5.0
 ```
 4. Klik **Add**
 5. Tambahkan dependency OpenPDF untuk fitur export PDF:
 ```bash
-- Group ID : com.github.librepdf
-- Artifact ID : openpdf
-- Version : 1.3.30
+   Group ID    : com.github.librepdf
+   Artifact ID : openpdf
+   Version     : 1.3.30
 ```
 6. Klik **Add**
 7. Tunggu hingga Maven selesai mengunduh dependency
@@ -135,7 +135,7 @@ File tersedia di dalam repository proyek di folder db
 ### Catatan Tambahan
 Semua file PDF yang dihasilkan oleh fitur export laporan akan otomatis disimpan di folder `reports` yang berada di root project:
 ```bash
-Kelasync/reports
+   Kelasync/reports
 ```
 Folder `reports` akan dibuat secara otomatis oleh aplikasi jika belum ada.
 
