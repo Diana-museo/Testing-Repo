@@ -101,7 +101,7 @@ Aplikasi Kelasync dikembangkan oleh Kelompok RancangRupa pada Praktikum Pemrogra
 
 | NIM  | Nama | GitHub Profile | 
 |----------|----------|----------|
-| `233040065`  | Emeralda Iffatud Diana | [Diana-museo](https://github.com/Diana-museo) |
+| `233040065` | Emeralda Iffatud Diana | [Diana-museo](https://github.com/Diana-museo) |
 | `233040051` | Haifa Zahirah Ramdhan | [haifazahirahr](https://github.com/haifazahirahr) |
-| `233040061` | Ellen Aplida Zalni | [twenteazfour](https://github.com/haifazahirahr) |
+| `233040061` | Ellen Aplida Zalni | [twenteazfour](https://github.com/twenteazfour) |
 | `233040086` | Iqbal Nurfikri | [MangEakLur](https://github.com/MangEakLur) |
