@@ -53,7 +53,7 @@ Jika ingin `Kursus.java`, maka:
 ```
 Mengikuti nama entity-nya.
 
-### 4. Tambahkan ke staged-change
+### 6. Tambahkan ke staged-change
 - Jika sudah membuat branch, kamu akan otomatis masuk ke branch yang kamu buat.
 - Jika ingin push `KursusView.java` saja, maka masukkan `KursusView.java` ke staged change, caranya:
 ```bash
@@ -63,6 +63,7 @@ Mengikuti nama entity-nya.
 ```bash
    git add controller/KursusController.java
 ```
+- Jangan pakai `git add .` secara mentah-mentah!
 - Setelah itu gunakan `git status` untuk memeriksa status file yang berada di stage change, pastikan itu ada file yang mau kamu commit & push.
 ```bash
    $ git status
@@ -71,12 +72,45 @@ Mengikuti nama entity-nya.
    Changes to be committed:
    Changes to be committed:
    (use "git restore --staged <file>..." to unstage)
-         new file:   view/KursusView.txt
+         new file:   view/KursusView.java
 ```
 - Nanti akan muncul hasil command seperti diatas.
 
+### 7. Masukkan Pesan Commit!
+- Masukkan pesan commit, contohnya:
+```bash
+   git commit -m "feat: add KursusView Interface"
+```
+- Jika ingin menambah validasi (sebelumnya belum dibuat)
+- Isi pesannya sesuaikan, tapi prefix-nya tetap `feat:`
+```bash
+   git commit -m "feat: add input validation for KursusController"
+```
+- Jika ingin mengubah/memperbaiki validasi (sebelumnya sudah dibuat tapi ada kesalahan)
+```bash
+   git commit -m "fix: prevent empty Nama Kursus field in Data Kursus form"
 
+   Artinya : "Mencegah field Nama Kursus kosong di form Data Kursus"
+```
+
+### 8. Push ke GitHub
+- Terakhir kita push ke GitHub!
+```bash
+   git push origin feature/view-kursus
+```
+
+### 9. Pull Request
+- Sekarang kamu pergi ke Repo GitHub tubes `RancangRupa-pp2-B-2025` dan lakukan pull request
+- Nanti akan muncul seperti ini di halaman utamanya:
+```bash
+   ----------------------------------------------------------------------------------------------------
+  |                                                                        ------------------------    |
+  |   feature/view-kursus had recent pushes 40 seconds ago                | Compare & pull request |   |
+  |                                                                        ------------------------    |
+   ----------------------------------------------------------------------------------------------------
+```
 ---
+
 
 ## 👥 Tim Pengembang
 
