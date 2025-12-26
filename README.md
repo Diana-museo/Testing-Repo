@@ -1,6 +1,6 @@
 # TUTORIAL PUSH PER FEATURE
 
-![GitHub](https://img.shields.io/badge/GitHub-Push&Commit-purple?style=for-the-badgelogo=github)
+![GitHub](https://img.shields.io/badge/GitHub-Push&Commit-purple?style=for-the-badge&logo=github)
 
 Tutorial Commit dan Push untuk Tugas Besar Praktikum Pemrograman II
 
