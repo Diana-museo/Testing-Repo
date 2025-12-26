@@ -103,12 +103,25 @@ Mengikuti nama entity-nya.
 - Sekarang kamu pergi ke Repo GitHub tubes `RancangRupa-pp2-B-2025` dan lakukan pull request
 - Nanti akan muncul seperti ini di halaman utamanya:
 ```bash
-   ----------------------------------------------------------------------------------------------------
-  |                                                                        ------------------------    |
-  |   feature/view-kursus had recent pushes 40 seconds ago                | Compare & pull request |   |
-  |                                                                        ------------------------    |
-   ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+|                                                                        ------------------------    |
+|   feature/view-kursus had recent pushes 40 seconds ago                | Compare & pull request |   |
+|                                                                        ------------------------    |
+ ----------------------------------------------------------------------------------------------------
 ```
+- Di klik tombol hijau `Compare & pull request`, nanti akan diarahkan ke halaman yang di bagian atasnya ada seperti ini:
+```bash
+OPEN A PULL REQUEST
+Create a new pull request by comparing changes across two branches. If you need to, you can also . Learn more about diff comparisons here.
+ ---------------------------------------------------------------------------------------------------------------------
+|    ------------      ------------------------------                                                                 |              
+|   | base: main | <- | compare: feature/view-kursus |  ✓ Able to merge. These branches can be automatically merged.  |
+|    ------------      ------------------------------                                                                 |               
+ ---------------------------------------------------------------------------------------------------------------------
+```
+- Ganti base nya menjadi `base: dev`, lalu klik tombol hijau `Create pull request`
+- Lalu laporkan ke grup, biar nanti aku Merge pull request!
+- SELESAI!
 ---
 
 
