@@ -1,143 +1,80 @@
 # TUTORIAL PUSH PER FEATURE
 
-![GitHub](https://img.shields.io/badge/GitHub-logo=openjdk-purple?style=for-the-badge)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)
+![GitHub](https://img.shields.io/badge/GitHub-Push & Commit-purple?style=for-the-badgelogo=github)
 
-Kelasync adalah aplikasi desktop berbasis Java Swing yang digunakan untuk mengelola data kursus, peserta, pengajar, dan pendaftaran.  
-Aplikasi ini menyediakan fitur pengolahan data terintegrasi dengan database MySQL melalui mekanisme CRUD dan tampilan tabel berbasis JTable.
-
-Proyek ini dikembangkan sebagai Tugas Besar Praktikum Pemrograman II Tahun 2025.
+Tutorial Commit dan Push untuk Tugas Besar Praktikum Pemrograman II
 
 ---
 
-## 🔎 Project Overview
+## 🗃️ Conventional Commit Message
 
-Kelasync dirancang untuk membantu proses pengelolaan data kursus secara terstruktur dan terkomputerisasi.  
-Aplikasi ini menitikberatkan pada pemisahan logika program menggunakan arsitektur Model–View–Controller (MVC) agar mudah dikembangkan dan dipelihara.
-
----
-
-## ⚙️ Fitur Aplikasi
-
-Fitur utama yang tersedia dalam aplikasi Kelasync meliputi:
-- Pengelolaan data kursus (CRUD)
-- Pengelolaan data peserta (CRUD)
-- Pengelolaan data pengajar (CRUD)
-- Pengelolaan data pendaftaran (CRUD)
-- Validasi input data
-- Tampilan data berbasis tabel (JTable)
-- Export laporan PDF:
-   1. Seluruh pendaftaran kursus
-   2. Jadwal kursus per peserta
+Ini adalah aturan baku untuk commit message:
+- `feat:` -> feature baru ke codebase, validasi baru
+- `fix:`  -> memperbaiki (fix) bug di codebase,
+             memperbaiki validasi yang sudah ada
+- `style:` -> styling halaman
+- dll
+Masih banyak lagi, tapi yang akan kita gunakan hanya `feat` dan `fix` saja di tugas besar ini.
 
 ---
 
-## 🗃️ Prasyarat Sistem
+## 🗝️ Panduan Commit dan Push
 
-Sebelum menjalankan aplikasi, pastikan sistem telah memenuhi kebutuhan berikut:
-- Java Development Kit (JDK) 21 atau versi yang kompatibel
-- MySQL Server (XAMPP/Laragon)
-- phpMyAdmin
-- NetBeans IDE
+Ikuti langkah-langkah berikut untuk commit dan push yang ditentukan:
 
----
-
-## 🛠️ Teknologi yang Digunakan
-
-| Komponen  | Teknologi |
-|----------|----------|
-| Bahasa Pemrograman | Java |
-| Database | MySQL |
-| PDF Library | OpenPDF |
-| Antarmuka | Java Swing |
-| IDE | NetBeans |
-
----
-
-## 🗝️ Panduan Instalasi dan Penggunaan
-
-Ikuti langkah-langkah berikut untuk menjalankan aplikasi Kelasync menggunakan Java Maven di NetBeans.
-
-### Langkah 1 – Membuat Project Baru di NetBeans
-1. Buka **NetBeans IDE**
-2. Pilih menu **File → New Project**
-3. Pada **Categories**, pilih **Java with Maven**
-4. Pada **Projects**, pilih **Java Application**
-5. Klik **Next**
-6. Isi konfigurasi project sebagai berikut:
+### 1. Pastikan selalu mulai dari branch `dev`
 ```bash
-   Project Name : Kelasync  
-   Group ID     : id.rancangrupa  
-```
-7. Klik **Finish**
-
-### Langkah 2 – Menambahkan Source Code
-1. Buka folder project **Kelasync**
-2. Masuk ke direktori: `src/main/java/id/rancangrupa/kelasync`
-3. Salin seluruh isi source code dari repository GitHub ke dalam folder tersebut
-4. Pastikan struktur package utama sesuai dan tidak terjadi error pada NetBeans
-```bash
-   Kelasync/src/main/java/id/rancangrupa/
-   ├── kelasync/
-   │ ├── controller/
-   │ │ ├── KursusController.java
-   │ │ ├── PendaftaranController.java
-   │ │ ├── PengajarController.java
-   │ │ ├── PesertaController.java
-   │ ├── db/
-   │ │ ├── kelasync.sql
-   │ ├── model/
-   │ │ ├── Kursus.java
-   │ │ ├── Pendaftaran.java
-   │ │ ├── Pengajar.java
-   │ │ ├── Peserta.java
-   │ ├── util/
-   │ │ ├── DBConnection.java
-   │ ├── view/
-   │ │ ├── KursusView.java
-   │ │ ├── PendaftaranView.java
-   │ │ ├── PengajarView.java
-   │ │ ├── PesertaView.java
-   └── Main.java
+   git checkout dev
 ```
 
-### Langkah 3 – Setup Database
-1. Jalankan MySQL Server (XAMPP/Laragon)
-2. Buka **phpMyAdmin**
-3. Buat database baru dengan nama: `kelasync_db`
-4. Import file database: `kelasync.sql`
-File tersedia di dalam repository proyek di folder db
-
-### Langkah 4 – Menambahkan Dependencies MySQL (Maven)
-1. Klik kanan pada folder **Dependencies** di project NetBeans
-2. Pilih **Add Dependency**
-3. Tambahkan dependency MySQL:
+### 2. Selalu periksa push terbaru di branch `dev`
 ```bash
-   Group ID    : com.mysql
-   Artifact ID : mysql-connector-j
-   Version  : 9.5.0
+   git pull origin dev
 ```
-4. Klik **Add**
-5. Tambahkan dependency OpenPDF untuk fitur export PDF:
-```bash
-   Group ID    : com.github.librepdf
-   Artifact ID : openpdf
-   Version     : 1.3.30
-```
-6. Klik **Add**
-7. Tunggu hingga Maven selesai mengunduh dependency
 
-### Langkah 5 – Menjalankan Aplikasi
-1. Buka file: Main.java
-2. Jalankan aplikasi dengan menekan tombol **Run**
-3. Aplikasi Kelasync akan tampil dan siap digunakan
+### 3. Kerjakan tugasmu, tidak apa-apa untuk memulai di branch `dev`
+- Karena untuk commit dan push nantinya kita akan membuat branch baru!
 
-### 🗒️ Catatan Tambahan
-Semua file PDF yang dihasilkan oleh fitur export laporan akan otomatis disimpan di folder `reports` yang berada di root project:
+### 4. Jika tugas selesai, saatnya commit & push!
+
+### 5. Di terminal mari buat branch baru terlebih dahulu
+- Gunakan nama branch yang konsisten.
+- Dalam kasus ini, kita ingin commit & push `KursusView.java` saja
 ```bash
-   Kelasync/reports
+   git checkout -b feature/view-kursus
 ```
-Folder `reports` akan dibuat secara otomatis oleh aplikasi jika belum ada.
+Jika ingin `KursusController.java`, maka:
+```bash
+   git checkout -b feature/controller-kursus
+```
+Jika ingin `Kursus.java`, maka:
+```bash
+   git checkout -b feature/model-kursus
+```
+Mengikuti nama entity-nya.
+
+### 4. Tambahkan ke staged-change
+- Jika sudah membuat branch, kamu akan otomatis masuk ke branch yang kamu buat.
+- Jika ingin push `KursusView.java` saja, maka masukkan `KursusView.java` ke staged change, caranya:
+```bash
+   git add view/KursusView.java
+```
+- INGAT! HARUS PAKAI ROOT FOLDER YANG RINCI! SESUAIKAN DENGAN YANG INGIN KALIAN PUSH. Contoh lainnya:
+```bash
+   git add controller/KursusController.java
+```
+- Setelah itu gunakan `git status` untuk memeriksa status file yang berada di stage change, pastikan itu ada file yang mau kamu commit & push.
+```bash
+   $ git status
+   On branch main
+   Your branch is up to date with 'feature/view-kursus'.
+   Changes to be committed:
+   Changes to be committed:
+   (use "git restore --staged <file>..." to unstage)
+         new file:   view/KursusView.txt
+```
+- Nanti akan muncul hasil command seperti diatas.
+
 
 ---
 
