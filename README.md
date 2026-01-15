@@ -9,12 +9,15 @@ Tutorial Commit dan Push untuk Tugas Besar Praktikum Pemrograman II
 ## 🗃️ Conventional Commit Message
 
 Ini adalah aturan baku untuk commit message:
-- `feat:` -> feature baru ke codebase, validasi baru
+- `feat:` -> menambahkan feature baru ke codebase, validasi baru
 - `fix:`  -> memperbaiki (fix) bug di codebase,
              memperbaiki validasi yang sudah ada
-- `style:` -> styling halaman
-- dll
-Masih banyak lagi, tapi yang akan kita gunakan hanya `feat` dan `fix` saja di tugas besar ini.
+- `style:` -> perubahan tampilan atau format kode tanpa mengubah logic
+- `refactor:` -> merapikan struktur kode tanpa mengubah perilaku
+- `perf:` -> optimasi performa
+- `docs:` -> dokumentasi
+- `chore:` -> pendukung non-fungsional (config, rename, dll)
+- `revert:` -> membatalkan commit sebelumnya
 
 ---
 
